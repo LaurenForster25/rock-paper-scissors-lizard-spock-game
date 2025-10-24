@@ -65,6 +65,10 @@
   list-style-position: inside;
 }*/
 
+.rules {
+    text-align: center;
+}
+
 ul {
   text-align: center;
   list-style-position: inside;

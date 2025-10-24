@@ -64,8 +64,8 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .game-box {
@@ -97,19 +97,13 @@
 
 
 ul {
-  text-align: center;
-  list-style-position: inside;
-  list-style: none;
-}
-
-/*ul {
   display: flex;
   justify-content: center;
   gap: 20px;
-  list-style: none; /* remove bullets 
+  list-style: none; 
   padding: 0;
 }
 
 li {
   text-align: center;
-}*/
+}

@@ -3,6 +3,13 @@
 
 /*Game area styles*/
 
+.logo {width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  
+
+}
+
 .game-variables {
   display: flex;
   justify-content: center;
@@ -28,7 +35,6 @@
   width: 80px;
   height: 80px;
   border-radius: 10px;
-  transition: transform 0.3s ease;
 }
 
 .btn span {

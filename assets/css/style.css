@@ -1,5 +1,9 @@
 /*General styles*/
 
+body {
+    background-color: white;
+
+}
 
 /*Game area styles*/
 
@@ -71,6 +75,9 @@
 .game-box {
     width: 300px;
     height: 160px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
 }
 
 #player-choice {
@@ -108,3 +115,5 @@ ul {
 li {
   text-align: center;
 }
+
+/*media queries*/

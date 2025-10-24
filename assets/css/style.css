@@ -3,5 +3,18 @@
 
 /*Game area styles*/
 
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn span {
+  margin-bottom: 5px; 
+  font-size: 14px;
+}
 
 /*Footer styles*/

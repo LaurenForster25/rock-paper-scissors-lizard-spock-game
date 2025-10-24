@@ -57,12 +57,16 @@
   font-size: 14px;
 }
 
-
-.scores {
+.score-zone {
     display:flex;
     justify-content: center;
     align-items: center;
     /*gap:20px*/
+}
+
+
+.scores {
+     text-align: center;
 }
 
 

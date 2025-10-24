@@ -3,13 +3,31 @@
 
 /*Game area styles*/
 
-/*.btn {
+.game-variables {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap:wrap;
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .btn span {

@@ -57,7 +57,13 @@
   font-size: 14px;
 }
 
-/*Footer styles*/
+
+.scores {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*gap:20px*/
+}
 
 
 .rules {

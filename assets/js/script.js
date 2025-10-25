@@ -6,7 +6,7 @@ const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-const playerChoiceIndex = parseInt(this.getAttribute("data-choice"));
+//const playerChoiceIndex = parseInt(this.getAttribute("data-choice"));
 
 for (let button of buttons) {
     button.addEventListener("click", function () {

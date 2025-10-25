@@ -43,6 +43,15 @@ function findWinner(player, computer) {
 
 //code to express which choices beat other choices
 
+const winsAgainst = {
+    rock: ["scissors", "lizard"],
+    paper: ["rock", "spock"],
+    scissors: ["paper", "lizard"],
+    lizard: ["spock", "paper"],
+    spock: ["scissors", "rock"]
+
+};
+
 
 //code to determine winner 
 

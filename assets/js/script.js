@@ -4,7 +4,7 @@
 const buttons = document.getElementsByClassName("btn");
 const playerIcon = document.getElementById //add icon option to html code?
 const computerIcon = document.getElementById //add icon option to html code?
-const messages = document.getElementById
+const messages = document.getElementById //add space for this in html
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -16,6 +16,7 @@ for (let buttons of buttons) {
     });
 }
 
+//main game function
 
 function runGame() {
 

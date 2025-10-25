@@ -55,6 +55,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
+  font-family: 'Delius', sans-serif;
 }
 
 
@@ -109,7 +110,7 @@ body {
   gap: 40px;
 }
  
-.restart-btn{
+.restart-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,6 +134,7 @@ body {
   font-weight: 200;
   width: 150px;
   height: 50px;
+  font-family: 'Delius', sans-serif;
 }
 
 .rules {

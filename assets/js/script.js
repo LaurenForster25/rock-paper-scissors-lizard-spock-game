@@ -1,7 +1,7 @@
  
 const buttons = document.getElementsByClassName("btn");
-const playerIcon = document.getElementById("player-icon");
-const computerIcon = document.getElementById("computer-icon");
+const playerIcon = document.getElementById("player-image");
+const computerIcon = document.getElementById("computer-image");
 const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");

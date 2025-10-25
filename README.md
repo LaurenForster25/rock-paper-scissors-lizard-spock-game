@@ -2,10 +2,10 @@
 This fun and modern twist on the original rock, paper, scissors game will engage people of all ages and backgrounds. The origins of this game comes from the American Sitcom ‘The Big Bang Theory’, and adding two more choices to the classic game gives players the chance to put their decision making skills to the test. This is a game designed to hone your quick-thinking skills and can be shown to family, friends and colleagues alike!
 
 Playing this game in person can often result in a lot of human error (and potenital cheating!), but with the computer as your rival, the results will be fairer as the computer's choice of hand will be completely random. 
-![Responsive Design](\assets\images\responsive-design.png)
+![Responsive Design](/assets/images/responsive-design.png)
 
 ## Features
-![Game Page](\assets\images\game-page.png)
+![Game Page](/assets/images/game-page.png)
 ### Header
 The top of the page features a bold header that describes the game to the user: Rock, Paper, Scissors, Lizard, Spock. The black colour contrasts the background and the font is simple and readable but also fun. There is an icon to the left of the header which demonstrates the hand motions one would use if they were playing the game in real life. This visual representation of the game adds to an interesting and bright design. 
 
@@ -25,11 +25,11 @@ With more time I would like to increase the responsiveness of this design by inc
 - I tested my Javascript code through JSHint and while I did receive some warnings in regards to the availability of my code in certain extensions, there were no errors with the actual code itself.
 - When inspecting my game page through Chrome's Developer tools, no error messages were raised in the console.
 - I tested my HTML code through the HTML Validator and it brought up an error that I had not added a value to my src attribute. I then added a placeholder image within that source to fix the error.
-![HTML error in Validator](assets\images\html-validator-error.png)
+![HTML error in Validator](assets/images/html-validator-error.png)
 - I tested my CSS code in Jigsaw, which brought up no errors.
-![CSS pass in Jigsaw](assets\images\css-validator-pass.png)
+![CSS pass in Jigsaw](assets/images/css-validator-pass.png)
 - I also tested this game page to access its Lighthouse Performance Scores
-![Lighthouse Performance Scores](assets\images\lighthouse-scores.png)
+![Lighthouse Performance Scores](assets/images/lighthouse-scores.png)
 
 ## Bugs Solved
 I faced many errors when creating this game page but I was able to correct most of them easily. 
@@ -42,6 +42,8 @@ The more common bugs occured when styling the Game Results section of the page. 
  3. I ensured that the source was set to 'Deploy from Branch', the Main branch was selected and that the folder was set to Root.
  4. I then clicked save and waited for the wesbite to be deployed.
  5. GitHub then provided me with a URL for the newly deployed website.
+
+This is my deployed site: https://laurenforster25.github.io/rock-paper-scissors-lizard-spock-game/
 
 ## Credits 
 - While I was mostly able to fix the the bugs in my code, there was some code snippets that I was unsure about and borrowed from my tutors:

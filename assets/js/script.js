@@ -7,7 +7,7 @@ const computerIcon = document.getElementById //add icon option to html code?
 const messages = document.getElementById //add space for this in html
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
-const result = document.getElementById("result");
+//const result = document.getElementById("result");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
 for (let buttons of buttons) {

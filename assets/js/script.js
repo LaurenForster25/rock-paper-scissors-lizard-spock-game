@@ -34,6 +34,17 @@ function runGame(playerChoice) {
 
 }
 
+//code to express which choices beat other choices
+
+const winsAgainst = {
+    rock: ["scissors", "lizard"],
+    paper: ["rock", "spock"],
+    scissors: ["paper", "lizard"],
+    lizard: ["spock", "paper"],
+    spock: ["scissors", "rock"]
+
+};
+
 //DETERMINE WINNER 
 
 function findWinner(player, computer) {
@@ -47,16 +58,7 @@ function findWinner(player, computer) {
 }
     
 
-//code to express which choices beat other choices
 
-const winsAgainst = {
-    rock: ["scissors", "lizard"],
-    paper: ["rock", "spock"],
-    scissors: ["paper", "lizard"],
-    lizard: ["spock", "paper"],
-    spock: ["scissors", "rock"]
-
-};
 
 //if (winsAgainst[player].includes(computer)){
 // return `You win! (${player} beats ${computer})`;

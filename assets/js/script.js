@@ -69,13 +69,6 @@ function addScores(result) {
 
 
 
-//if (winsAgainst[player].includes(computer)){
-// return `You win! (${player} beats ${computer})`;
-//} else {
-   // return `You lose! (${computer} beats ${player})`;
-//}
-// return `You lose! ${computer} beats ${player}.`;
 
 
-//code to determine winner 
 

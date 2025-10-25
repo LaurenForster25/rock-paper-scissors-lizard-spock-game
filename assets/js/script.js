@@ -34,12 +34,15 @@ function runGame(playerChoice) {
 }
 
 function findWinner(player, computer) {
-    
-//defining tie 
     if (player === computer) {
-        return "You've tied!";
+        return `You've tied! ${player}.`;
+    } else if (winsAgainst[player].includes(computer)){
+        return `You win! ${player} beats ${computer}.`;
+    } else {
+        return `You lose! ${computer} beats ${player}.`;
     }
 }
+    
 
 //code to express which choices beat other choices
 
@@ -57,6 +60,7 @@ if (winsAgainst[player].includes(computer)){
 } else {
     return `You lose! (${computer} beats ${player})`;
 }
+ return `You lose! 😢 ${computer} beats ${player}.`;
 
 
 //code to determine winner 

@@ -6,7 +6,7 @@ const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-//const playerChoiceIndex = parseInt(this.getAttribute("data-choice"));
+
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -21,12 +21,12 @@ function runGame(playerChoice) {
     playerIcon.src = `assets/images/${choices[playerChoice]}.png`
     playerIcon.alt = choices[playerChoice];
 
-    let computerChoice = Math.floor(Math.random() * choices.length); //mention this code snippet in credits
+    let computerChoice = Math.floor(Math.random() * choices.length); 
 
     computerIcon.src = `assets/images/${choices[computerChoice]}.png`;
     computerIcon.alt = choices[computerChoice];
 
-    let result = chooseWinner(choices[playerChoice], choices[computerChoice]); //credit snippet in readme
+    let result = chooseWinner(choices[playerChoice], choices[computerChoice]); 
 
     addScores(result);
 

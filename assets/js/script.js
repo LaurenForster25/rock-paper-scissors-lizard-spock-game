@@ -18,12 +18,12 @@ for (let button of buttons) {
 //main game function
 
 function runGame(playerChoice) {
-    playerIcon.src = `../images/${choices[playerChoice]}.png`
+    playerIcon.src = `assets/images/${choices[playerChoice]}.png`
     playerIcon.alt = choices[playerChoice];
 
     let computerChoice = Math.floor(Math.random() * choices.length); //mention this code snippet in credits
 
-    computerIcon.src = `../images/${choices[computerChoice]}.png`;
+    computerIcon.src = `assets/images/${choices[computerChoice]}.png`;
     computerIcon.alt = choices[computerChoice];
 
     let result = chooseWinner(choices[playerChoice], choices[computerChoice]); //credit snippet in readme

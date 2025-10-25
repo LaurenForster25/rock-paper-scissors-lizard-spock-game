@@ -5,7 +5,7 @@ Playing this game in person can often result in a lot of human error (and poteni
 ![Responsive Design](/assets/images/responsive-design.png)
 
 ## Features
-![Game Page](/assets/images/game-page.png)
+![Game Page](/assets/images/game-page-final.png)
 ### Header
 The top of the page features a bold header that describes the game to the user: Rock, Paper, Scissors, Lizard, Spock. The black colour contrasts the background and the font is simple and readable but also fun. There is an icon to the left of the header which demonstrates the hand motions one would use if they were playing the game in real life. This visual representation of the game adds to an interesting and bright design. 
 

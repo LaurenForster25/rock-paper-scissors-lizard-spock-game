@@ -27,7 +27,7 @@ function runGame(playerChoice) {
     computerIcon.src = `assets/images/${choices[computerChoice]}.png`;
     computerIcon.alt = choices[computerChoice];
 
-    let result = chooseWinner(choices[playerChoice], choices[computerChoice]);
+    let result = chooseWinner(choices[playerChoice], choices[computerChoice]); //credit snippet in readme
 
     addScores(result);
 

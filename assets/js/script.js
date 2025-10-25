@@ -31,7 +31,7 @@ function runGame(playerChoice) {
 
 }
 
-//code to express which choices beat other choices
+//win against options
 
 const winsAgainst = {
     rock: ["scissors", "lizard"],
@@ -42,7 +42,7 @@ const winsAgainst = {
 
 };
 
-//DETERMINE WINNER 
+//determining winner
 
 function chooseWinner(player, computer) {
     if (player === computer) {
@@ -54,6 +54,8 @@ function chooseWinner(player, computer) {
     }
 }
     
+//adding score
+
 function addScores(result) {
     if (result.includes(win)){
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
@@ -63,6 +65,8 @@ function addScores(result) {
 
     messages.textContent = result;
 }
+
+//stopping game after either player or computer reaches 5 points
 
 const playerPoints = parseInt(playerScore.textContent);
 const computerPoints = parseInt(computerScore.textContent);
@@ -74,6 +78,8 @@ if (playerPoints >= 5) {
     messages.textContent = "You Lost the Game!";
     disableButtons();
 }
+
+//restart button
 
 document.getElementsByClassName("restart").addEventListener("click", () => {
     playerScore.textContent = "0";

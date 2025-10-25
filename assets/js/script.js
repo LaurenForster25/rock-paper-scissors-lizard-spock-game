@@ -24,8 +24,12 @@ function runGame(playerChoice) {
 
     let computerChoice = Math.floor(Math.random() * 4); //mention this code snippet in credits
 
+    computerIcon.src = `assets/images/${choices[computerChoice]}.png`;
+    computerIcon.alt = choices[computerChoice];
 
+    let result = chooseWinner(choices[playerChoice], choices[computerChoice]);
 
+    addScores(result);
 
 }
 

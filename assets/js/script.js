@@ -5,8 +5,8 @@ const buttons = document.getElementsByClassName("btn");
 const playerIcon = document.getElementById //add icon option to html code?
 const computerIcon = document.getElementById //add icon option to html code?
 const messages = document.getElementById
-const playerScore = document.getElementById
-const computerScore = document.getElementById
+const playerScore = document.getElementById("player-score")
+const computerScore = document.getElementById("computer-score")
 
 
 function runGame() {

@@ -81,20 +81,16 @@ body {
 }
 
 .game-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 125px;
     border-style: outset;
     border-color: black;
     border-radius: 20px;
-}
+    background-color: white;
 
-#player-icon {
-    background-color:rgb(220, 144, 113);
-}
-
-
-#computer-icon {
-    background-color:rgb(96, 161, 163);
 }
 
 #result {

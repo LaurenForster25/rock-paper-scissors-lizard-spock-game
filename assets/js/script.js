@@ -18,7 +18,14 @@ for (let buttons of buttons) {
 
 //main game function
 
-function runGame() {
+function runGame(playerChoice) {
+    playerIcon.src = `assets/images/${choices[playerChoice]}.png`
+    playerIcon.alt - choices[playerChoice];
+
+    let computerChoice = Math.floor(Math.random() * 4);
+
+
+
 
 }
 

@@ -6,10 +6,11 @@ const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+const playerChoiceIndex = parseInt(this.getAttribute("data-choice"));
 
 for (let button of buttons) {
-    buttons.addEventListener("click", function () {
-        let playerChoice = this.getAttribute("data-choice");
+    button.addEventListener("click", function () {
+        let playerChoice = parseInt(this.getAttribute("data-choice"));
         runGame(playerChoice);
     });
 }
@@ -57,16 +58,15 @@ function chooseWinner(player, computer) {
 //adding score
 
 function addScores(result) {
-    if (result.includes(win)){
+    if (result.includes("win")){
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
     } else if (result.includes("lose")) {
         computerScore.textContent = parseInt(computerScore.textContent) + 1;
     }
 
     messages.textContent = result;
-}
 
-//stopping game after either player or computer reaches 5 points
+    //stopping game after either player or computer reaches 5 points
 
 const playerPoints = parseInt(playerScore.textContent);
 const computerPoints = parseInt(computerScore.textContent);
@@ -79,21 +79,31 @@ if (playerPoints >= 5) {
     disableButtons();
 }
 
+}
+
+
 //restart button
 
-document.getElementsByClassName("restart").addEventListener("click", () => {
+document.querySelector(".restart").addEventListener("click", () => {
     playerScore.textContent = "0";
     computerScore.textContent = "0";
 
-    const buttons = document.getElementsByClassName("restart-btn");
+    //const buttons = document.getElementsByClassName("restart-btn");
     for (let button of buttons) {
         button.disabled = false;
     }
 
     playerIcon.src = "";
     computerIcon.src = "";
+
+    messages.textContent = "Game restarted!";
 })
 
+function disableButtons() {
+    for(let button of buttons) {
+        button.disabled = true;
+    }
+}
 
 
 

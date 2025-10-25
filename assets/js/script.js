@@ -34,6 +34,8 @@ function runGame(playerChoice) {
 
 }
 
+//DETERMINE WINNER 
+
 function findWinner(player, computer) {
     if (player === computer) {
         return `You've tied! ${player}.`;

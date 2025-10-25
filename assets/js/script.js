@@ -9,6 +9,13 @@ const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
+for (let buttons of buttons) {
+    buttons.addEventListener("click", function () {
+        let playerChoice = this.getAttribute("data-choice");
+        playGame(playerChoice);
+    });
+}
+
 
 function runGame() {
 

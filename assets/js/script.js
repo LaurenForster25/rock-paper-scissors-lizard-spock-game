@@ -1,3 +1,6 @@
+//event listeners - when first icon is clciked 
+
+
 function runGame() {
 
 }

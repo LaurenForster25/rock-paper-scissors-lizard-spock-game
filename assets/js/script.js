@@ -4,7 +4,7 @@
 const buttons = document.getElementsByClassName("btn");
 const playerIcon = document.getElementById //add icon option to html code?
 const computerIcon = document.getElementById //add icon option to html code?
-const messages = document.getElementById //add space for this in html
+const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 //const result = document.getElementById("result");
@@ -60,6 +60,7 @@ function findWinner(player, computer) {
 
 
 
+
 //if (winsAgainst[player].includes(computer)){
 // return `You win! (${player} beats ${computer})`;
 //} else {
@@ -70,25 +71,3 @@ function findWinner(player, computer) {
 
 //code to determine winner 
 
-
-
-
-
-
-
-
-function computerOption() {
-
-}
-
-function displayIcons() {
-
-}
-
-function displayWinner() {
-
-}
-
-function incrementScore() {
-
-}

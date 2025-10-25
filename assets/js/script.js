@@ -1,6 +1,4 @@
-//event listeners - when first icon is clciked 
-//code executes only when page is fully loaded 
-
+ 
 const buttons = document.getElementsByClassName("btn");
 const playerIcon = document.getElementById("player-icon");
 const computerIcon = document.getElementById("computer-icon");

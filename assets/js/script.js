@@ -2,8 +2,8 @@
 //code executes only when page is fully loaded 
 
 const buttons = document.getElementsByClassName("btn");
-const playerIcon = document.getElementById
-const computerIcon = document.getElementById
+const playerIcon = document.getElementById //add icon option to html code?
+const computerIcon = document.getElementById //add icon option to html code?
 const messages = document.getElementById
 const playerScore = document.getElementById
 const computerScore = document.getElementById

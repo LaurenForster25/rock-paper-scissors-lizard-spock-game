@@ -33,6 +33,26 @@ function runGame(playerChoice) {
 
 }
 
+function findWinner(player, computer) {
+    
+//defining tie 
+    if (player === computer) {
+        return "You've tied!";
+    }
+}
+
+//code to express which choices beat other choices
+
+
+//code to determine winner 
+
+
+
+
+
+
+
+
 function computerOption() {
 
 }

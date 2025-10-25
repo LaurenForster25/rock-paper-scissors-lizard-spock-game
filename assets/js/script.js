@@ -22,7 +22,7 @@ function runGame(playerChoice) {
     playerIcon.src = `assets/images/${choices[playerChoice]}.png`
     playerIcon.alt - choices[playerChoice];
 
-    let computerChoice = Math.floor(Math.random() * 4);
+    let computerChoice = Math.floor(Math.random() * 4); //mention this code snippet in credits
 
 
 

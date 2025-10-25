@@ -16,3 +16,9 @@ This is the largest and most interactive part of the game page. In this section 
 ### Game Rules
 At the bottom of the page there are a set of game rules. This section explains to the user how the extra two options are incorporated into a classic game of Rock, Paper, Scissors. Having these rules clearly expressed on the page, will really allow players to use their initiative and further develop their decision making skills.
 
+## Features to Implement in the Future
+With more time I would like to increase the responsiveness of this design by inclduing more media queries. I also think adding more colour to the page could increase the enjoyment for users. In the further future, I would like to make this a game page that could be played by two people as well as just player vs computer.
+
+##
+
+

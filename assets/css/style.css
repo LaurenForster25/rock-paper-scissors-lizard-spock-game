@@ -88,12 +88,12 @@ body {
     border-radius: 20px;
 }
 
-#player-choice {
+#player-icon {
     background-color:rgb(220, 144, 113);
 }
 
 
-#computer-choice {
+#computer-icon {
     background-color:rgb(96, 161, 163);
 }
 

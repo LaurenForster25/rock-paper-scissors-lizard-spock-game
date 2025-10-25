@@ -66,7 +66,7 @@ function addScores(result) {
 
     messages.textContent = result;
 
-    //stopping game after either player or computer reaches 5 points
+//stopping game after either player or computer reaches 5 points
 
 const playerPoints = parseInt(playerScore.textContent);
 const computerPoints = parseInt(computerScore.textContent);
@@ -88,7 +88,7 @@ document.querySelector(".restart").addEventListener("click", () => {
     playerScore.textContent = "0";
     computerScore.textContent = "0";
 
- //const buttons = document.getElementsByClassName("restart-btn");
+
     for (let button of buttons) {
         button.disabled = false;
     }

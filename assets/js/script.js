@@ -18,12 +18,12 @@ for (let button of buttons) {
 //main game function
 
 function runGame(playerChoice) {
-    playerIcon.src = `assets/images/${choices[playerChoice]}.png`
+    playerIcon.src = `../images/${choices[playerChoice]}.png`
     playerIcon.alt = choices[playerChoice];
 
     let computerChoice = Math.floor(Math.random() * choices.length); //mention this code snippet in credits
 
-    computerIcon.src = `assets/images/${choices[computerChoice]}.png`;
+    computerIcon.src = `../images/${choices[computerChoice]}.png`;
     computerIcon.alt = choices[computerChoice];
 
     let result = chooseWinner(choices[playerChoice], choices[computerChoice]); //credit snippet in readme
@@ -88,7 +88,7 @@ document.querySelector(".restart").addEventListener("click", () => {
     playerScore.textContent = "0";
     computerScore.textContent = "0";
 
-    //const buttons = document.getElementsByClassName("restart-btn");
+ //const buttons = document.getElementsByClassName("restart-btn");
     for (let button of buttons) {
         button.disabled = false;
     }
@@ -97,7 +97,9 @@ document.querySelector(".restart").addEventListener("click", () => {
     computerIcon.src = "";
 
     messages.textContent = "Game restarted!";
-})
+
+});
+
 
 function disableButtons() {
     for(let button of buttons) {

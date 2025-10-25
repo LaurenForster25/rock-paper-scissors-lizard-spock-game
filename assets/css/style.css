@@ -21,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 1.75rem;
 }
 
 
@@ -67,7 +68,7 @@ body {
 
 
 .btn span {
-  margin-bottom: 5px; 
+  margin-bottom: 0; 
   font-size: 14px;
 }
 
@@ -85,7 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 200px;
-    height: 125px;
+    height: 135px;
     border-style: outset;
     border-color: black;
     border-radius: 20px;
@@ -152,4 +153,9 @@ li {
   text-align: center;
 }
 
+
+/*.small-image {
+    width: 40px;
+    height: auto;
+}
 /*media queries*/

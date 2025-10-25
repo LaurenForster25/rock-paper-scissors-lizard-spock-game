@@ -57,7 +57,15 @@ function chooseWinner(player, computer) {
     }
 }
     
+function addScores(result) {
+    if (result.includes(win)){
+        playerScore.textContent = parseInt(playerScore.textContent) + 1;
+    } else if (result.includes("lose")) {
+        computerScore.textContent = parseInt(computerScore.textContent) + 1;
+    }
 
+    messages.textContent = result;
+}
 
 
 

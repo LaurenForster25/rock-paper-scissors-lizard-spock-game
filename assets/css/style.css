@@ -154,3 +154,28 @@ li {
 }
 
 
+@media (max-width:600px ) {
+    .game-variables {
+        flex-direction: column;
+        gap:10px;
+    }
+
+.game-zone {
+    flex-direction: column;
+}
+
+.score-zone {
+    flex-direction: column;
+}
+
+}
+
+@media (max-width:900px){
+    .title {font-size:1.7rem
+    
+    }
+
+    .score-zone {
+        gap:25px
+    }
+}

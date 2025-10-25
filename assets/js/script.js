@@ -7,7 +7,6 @@ const computerIcon = document.getElementById("computer-icon");
 const messages = document.getElementById("result");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
-//const result = document.getElementById("result");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
 for (let button of buttons) {
@@ -67,7 +66,29 @@ function addScores(result) {
     messages.textContent = result;
 }
 
+const playerPoints = parseInt(playerScore.textContent);
+const computerPoints = parseInt(computerScore.textContent);
 
+if (playerPoints >= 5) {
+    messages.textContent = "You Won the Game!";
+    disableButtons();
+} else if (computerPoints >= 5){
+    messages.textContent = "You Lost the Game!";
+    disableButtons();
+}
+
+document.getElementsByClassName("restart").addEventListener("click", () => {
+    playerScore.textContent = "0";
+    computerScore.textContent = "0";
+
+    const buttons = document.getElementsByClassName("restart-btn");
+    for (let button of buttons) {
+        button.disabled = false;
+    }
+
+    playerIcon.src = "";
+    computerIcon.src = "";
+})
 
 
 
